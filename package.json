@@ -1,0 +1,30 @@
+{
+  "name": "fastify-jest-example",
+  "version": "1.0.0",
+  "description": "an example on how integrate jest lib with fastify",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest test",
+    "coverage": "jest --collectCoverageFrom=test/**.js --coverage"
+  },
+  "keywords": [
+    "api",
+    "fastify",
+    "jest"
+  ],
+  "author": "mstocchi",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.12.3",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^22.4.2"
+  }
+}
